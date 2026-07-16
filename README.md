@@ -11,7 +11,7 @@ npm run dev
 
 ---
 
-## 11. Tư duy triển khai
+## 1. Tư duy triển khai
 
 ### Chia layout thành sections / components như thế nào?
 
