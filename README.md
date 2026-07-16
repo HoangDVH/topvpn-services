@@ -11,7 +11,7 @@ npm run dev
 
 ---
 
-## 4. Tư duy triển khai (Dev Thinking)
+## 11. Tư duy triển khai
 
 ### Chia layout thành sections / components như thế nào?
 
@@ -87,7 +87,7 @@ Thiết kế **khả thi hoàn toàn** với HTML/CSS/React thuần, không cầ
 
 ---
 
-## 5. Giải thích thiết kế (Bắt buộc)
+## 2. Giải thích thiết kế
 
 ### Tại sao chọn bảng màu này?
 
@@ -108,23 +108,6 @@ Không dùng đỏ làm CTA vì dễ gợi cảnh báo/lỗi. Không dùng tím 
 
 Scale type dùng rem (`--text-xs` → `--text-5xl`) để respect user font-size settings và scale đồng đều trên breakpoint.
 
-### Lấy cảm hứng từ đâu?
-
-1. **Wirecutter / TechRadar VPN comparison pages** — cấu trúc bảng xếp hạng + badge "Editor's Pick" + CTA per row.
-2. **SaaS landing pages** (Stripe, Linear) — hero gradient tối, spacing rộng, typography hierarchy rõ.
-3. **Affiliate review sites** — pattern F-pattern reading (headline trái → CTA → content), trust stats trong hero, methodology section để giảm skepticism.
-4. **Mobile e-commerce cards** — stacked card layout với CTA full-width ở đáy cho thumb zone (Apple HIG / Material touch target guidelines).
-
-### Nếu có thêm thời gian, sẽ cải thiện gì?
-
-1. **Logo VPN thật** — thay initials placeholder bằng SVG logo chính thức (NordVPN, ExpressVPN…) để tăng credibility.
-2. **Trang chi tiết từng VPN** — `/vpn/nordvpn` với speed test charts, screenshot app, pros/cons đầy đủ.
-3. **Filter & sort** — lọc theo "Best for streaming", "Cheapest", "Most private" trên bảng so sánh.
-4. **Dark mode** — toggle theme, giữ contrast CTA cam trên nền tối.
-5. **A11y audit** — keyboard navigation cho bảng, `aria-sort` khi sort, focus ring nhất quán.
-6. **Performance** — lazy load fonts, optimize LCP của hero (hiện load Google Fonts external).
-7. **Animation nhẹ** — fade-in cho cards khi scroll (Intersection Observer), không làm chậm trang.
-8. **i18n** — hỗ trợ đa ngôn ngữ nếu target global market mở rộng beyond English.
 
 ---
 
